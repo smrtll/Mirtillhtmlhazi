@@ -1,0 +1,148 @@
+body{
+  background-color: LightGray ;
+  background-position: center;
+  background-size: 10%;
+}
+
+h1 {
+
+  color: black;
+  text-align: center;
+  font-family: Lucida Console;
+  font-size: 35px
+}
+h2{
+  color: black;
+  text-align: left;
+  font-family: Lucida Console;
+  font-size: 35px
+}
+h3{
+  color: black;
+  text-align: left;
+  font-family: Lucida Console;
+  font-size: 35px
+}
+h4{
+  color: black;
+  text-align: left;
+  font-family: Lucida Console;
+  font-size: 35px
+  padding-top: 70px;
+
+}
+p{
+  font-family: Lucida Console;
+  font-size: 20px;
+  color: black;
+  padding-top: 30px;
+}
+
+
+
+
+.sidenav {
+  font-family: Lucida Console;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+.fa {
+  padding: 1px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px;
+  display: block;
+ 
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  
+  color: gray;
+}
+
+.fa-pinterest {
+  
+  color: gray;
+}
+.fa-facebook {
+ 
+  color: gray;
+}
+
+
+
+body {font-family: Lucida Console ;font-size: 15px, sans-serif;}
+* {box-sizing: border-box;} 
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+input[type=submit] {
+  background-color: #111;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: gray;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-right: 350px;
+  
+}
+
+

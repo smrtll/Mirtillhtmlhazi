@@ -1,0 +1,136 @@
+body{
+  background-color: LightGray ;
+  background-position: center;
+  background-size: 10%;
+ 
+}
+
+h1 {
+
+  color: black;
+  text-align: center;
+  font-family: Lucida Console;
+  font-size: 35px
+}
+
+h2{
+  color: black;
+  text-align: left;
+  font-family: Lucida Console;
+  font-size: 35px
+
+}
+
+p{
+  font-family: Lucida Console;
+  font-size: 20px;
+
+}
+
+
+
+p{
+  font-family: Lucida Console;
+  font-size: 20px;
+
+}
+
+
+.sidenav {
+  font-family: Lucida Console;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+}
+
+
+
+
+.container {
+  position: relative;
+  width: 248,0px;
+  height: 350,8px;
+  display: inline-block;
+
+}
+
+.image {
+  display: block;
+  width: 248,0px;
+  height: 350,8px;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 350,8px;
+  width: 248,0px;
+  opacity: 0;
+  transition: all.5s ease;
+  background-color: #008CBA;
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: Lucida Console;
+}
+
+img {
+  
+  margin-left: ;
+  margin-right: ;
+}
+
+img {
+  display: block;
+  margin-left: center;
+  margin-right: center;
+}
+img {
+  display: block;
+  float: right;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

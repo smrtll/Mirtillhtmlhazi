@@ -50,6 +50,13 @@ p { /* welcome */
   font-size: 28px; 
   padding: 0px 10px;
 }
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}

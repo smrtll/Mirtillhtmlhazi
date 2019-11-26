@@ -116,18 +116,19 @@ p{
 
 img {
   
-  margin-left: ;
-  margin-right: ;
+  margin-left: auto;
+  margin-right: auto ;
 }
 
 img {
   display: block;
-  margin-left: center;
-  margin-right: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 img {
   display: block;
-  float: right;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-height: 450px) {
